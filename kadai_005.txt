@@ -1,0 +1,14 @@
+#下記の台形の面積の計算結果を出力するプログラムを記述してください。
+#出力結果は「◯◯cm²」となるように単位をつけてください。
+#上辺：10cm
+#下辺：20cm
+#高さ：5cm
+#公式：台形の面積 =（上辺＋下辺）× 高さ ÷ 2
+
+top_side = 10
+bottom_side = 20
+height= 5
+
+Trapezoid_area = (top_side + bottom_side) * height / 2
+print(f"上辺が{top_side}cm，下辺が{bottom_side}cm，高さが{height}cmの場合,")
+print(f"台形の面積は{Trapezoid_area}cm²です")
